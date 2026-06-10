@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pj-ph Score Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Pj-ph Score Converter</h1>
+
+    <div class="panel">
+        <select id="diff"></select>
+        <select id="level"></select>
+        <select id="music"></select>
+        <input id="ma_h" type="number" placeholder="Max Combo">
+        <input id="pa_h" type="number" placeholder="Parfect">
+        <input id="gr_h" type="number" placeholder="Great">
+        <button onclick="calc_ca()">calculation</button>
+    </div>
+
+    <span id="result"></span><span id="result_collr_0"></span><span class="coll_test_0" id="result_collr_1"></span><span class="coll_test_1" id="result_collr_2"></span>
+
+    <button id="settings-btn" onclick="openSettings()">&#x2699;</button>
+
+    <div id="setting" class="setting"><!-- //設定タブ -->
+        <div class="setting-content">
+            <button class="mclose" onclick="closeSettings()">&#x2715;</button>
+            <h2>設定</h2>
+            <div class="row">
+                <button onclick="opentuika()">追加</button>
+                <button onclick="opensakuzyo()">削除</button>
+            </div>
+            <div class="panel"><button onclick="openpas()" >パスワード変更</button></div>
+        </div>
+    </div>
+
+    <div id="tuika" class="tuika"><!-- //楽曲追加タブ -->
+        <div class="tuika-content">
+            <button class="mclose" onclick="closetuika()">&#x2715;</button>
+            <h2>楽曲追加</h2>
+            <div class="panel">
+                <select id="diff">
+                    <option value="expart">expart</option>
+                    <option value="master">master</option>
+                    <option value="append">append</option>
+                </select>
+            </div>
+            <div class="row">
+                <input class="minput" id="alevel" type="number" placeholder="難易度">
+                <input class="minput" id="asong" placeholder="曲名">
+            </div>
+            <div class="row2">
+                <input placeholder="Full combo">
+                <button class="add-btn">追加</button>
+            </div>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>

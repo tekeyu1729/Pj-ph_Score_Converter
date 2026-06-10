@@ -7,7 +7,7 @@ select,input,button{padding:8px}
 .setting{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.6);justify-content:center;align-items:center;}
 .setting-content{width:400px;max-width:90vw;background:#11142b;padding:20px;border-radius:16px;}
 .tuika{display:none;position:fixed;inset:0;justify-content:center;align-items:center;}
-.tuika-content{width:400px;max-width:90vw;background:#11142b;padding:20px;border-radius:16px;}
+.tuika-content{width:300px;max-width:90vw;background:#11142b;padding:20px;border-radius:16px;}
 .full{width:100%;}
 .row{display:grid;grid-template-columns:50% 50%;gap: 12px;margin-top:12px;width:96.5%;}
 .row2{display:grid;grid-template-columns:1fr auto;gap:12px;margin-top:12px;}

@@ -1,5 +1,5 @@
 # Pj-ph_Score_Converter
-プロセカのリザルトからphigrosのスコアに変換できる<br>
+プロセカのリザルトからphigrosのスコアに変換できる(現在作成途中なので曲の追加などはできない)<br>
 https://tekeyu1729.github.io/Pj-ph_Score_Converter/
 
 <h2>オフラインで使いたい場合</h2>
